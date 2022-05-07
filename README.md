@@ -125,7 +125,7 @@ I decided to learn a bit of bash scripting to automate a few tasks and it turned
 arrayName=("$@")
 
 ## Getting the length of the args array and printing the array
-$@ $##
+$@ $#
 
 ## Accessing an element of args
     ${arrayName[index]}
