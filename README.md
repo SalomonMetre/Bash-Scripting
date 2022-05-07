@@ -8,13 +8,13 @@ I decided to learn a bit of bash scripting to automate a few tasks and it turned
     which bash
 
 ## Make script executable
-    chmod +x <bashScript>
+    chmod +x <scriptName>
 
 ## Executing the bash script which is in the same folder
-    ./<bashScript>
+    ./<scriptName>
 
-## Saving an output in a file
-    echo <TEXT> > fileName.txt
+## Saving an output of echo in a file
+    echo TEXT > fileName.txt
 
 ## Open a prompt and write some text to a text file
     cat > fileName.txt
@@ -23,16 +23,16 @@ I decided to learn a bit of bash scripting to automate a few tasks and it turned
     cat >> fileName.txt
 
 ## One-line comment
-    ## <comment>
+    ## comment
 
 ## Multiline comment
     :' 
-    <comment> 
+    comment
     '
 
 ## Including some heredoc text
     cat << heredocname 
-        <TEXT> 
+        TEXT
     heredocname
 
 ## Declaring variables and assigning some initial value
