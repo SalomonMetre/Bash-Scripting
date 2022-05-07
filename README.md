@@ -7,7 +7,7 @@ I decided to learn a bit of bash scripting to automate a few tasks and it turned
 ## Checking the bash path
     which bash
 
-## Make script executable
+## Making script executable
     chmod +x <scriptName>
 
 ## Executing the bash script which is in the same folder
@@ -16,10 +16,10 @@ I decided to learn a bit of bash scripting to automate a few tasks and it turned
 ## Saving an output of echo in a file
     echo TEXT > fileName.txt
 
-## Open a prompt and write some text to a text file
+## Opening a prompt and writing some text to a text file
     cat > fileName.txt
 
-## Append some text to a text file
+## Appending some text to a text file
     cat >> fileName.txt
 
 ## One-line comment
@@ -35,7 +35,7 @@ I decided to learn a bit of bash scripting to automate a few tasks and it turned
         TEXT
     heredocname
 
-## Declaring variables and assigning some initial value
+## Declaring a variable and assigning some initial value
     variableName=value
 
 ## Assigning to a variable the result of some computation
@@ -130,7 +130,7 @@ $@ $#
 ## Accessing an element of args
     ${arrayName[index]}
 
-## Export a variable to another script
+## Exporting a variable to another script
     export <variable> exportFile
     Variable should be in capital
 
@@ -152,13 +152,13 @@ $@ $#
 ## Converting numbers using the bc calc:
     echo "obase=a; ibase=b; $variableName" | bc 
 
-## Declaring variables (another way?)
+## Declaring and initializing variables (another way?)
     declare variableName=value
 
 ## Checking all available variables?
     declare -p
 
-## Declare array
+## Declaring and initializing an array
     arrayName=( a b c ... q)
 
 ## Getting all the elements
